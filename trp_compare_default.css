@@ -1,0 +1,259 @@
+/* body タグ設定 */
+body {
+	background-color: rgb(0, 77, 149);					/* 背景色 */
+	color: rgb(15, 15, 15);								/* 文字色 */
+	font-family: verdana,arial,helvetica,sans-serif;	/* フォント */
+	font-size: 12px;									/* 文字サイズ */
+	line-height: 18px;									/* 行の高さ */
+	-ms-scrollbar-base-color: transparent;				/* スクロールバーの基本色(IE向け) */
+	-ms-scrollbar-face-color: rgb(214, 214, 214);		/* スクロールバーのバーの色(IE向け) */
+	-ms-scrollbar-arrow-color: rgb(214, 214, 214);		/* スクロールバーの矢印の色(IE向け) */
+	-ms-scrollbar-track-color: transparent;				/* スクロールバーのレールの色(IE向け) */
+}
+/* h1 タグ文字設定 */
+h1 {
+	font-size: 1.5em;									/* 文字サイズ */
+	font-weight: 600;									/* 文字太さ */
+	line-height: 24px;									/* 行の高さ */
+}
+/* h2 タグ文字設定 */
+h2 {
+	font-size: 1.25em;									/* 文字サイズ */
+	font-weight: 600; 									/* 文字太さ */
+	line-height: 24px;									/* 行の高さ */
+}
+/* p タグ文字設定 */
+p {
+    /* non setting */
+}
+
+/* header タグ設定 */
+header {
+	background-color: rgb(214, 249, 159);				/* 背景色 */
+	border-radius: 2px 2px 0px 0px;						/* 角の丸み */
+	box-shadow: inset 0px -1px 0px rgb(195, 234, 133);	/* 影設定 */
+	color: rgb(61, 96, 6);								/* 文字色 */
+}
+/* id="content" タグ設定 */
+div#content {
+	background-color: rgb(255, 255, 255);				/* 背景色 */
+	border-radius: 0px 0px 2px 2px;						/* 角の丸み */
+}	
+/* footer タグ設定 */
+footer {
+	color: rgb(201, 229, 255);							/* 文字色 */
+}
+/* header タグ, id="content" タグ, footer タグ設定 */
+header, div#content, footer {
+	margin: 0 auto;										/* 領域間のスペース幅 */
+	padding: 8px;										/* 領域内のスペース幅 */
+}
+
+/* class="toggle_icon" 設定 (img タグ内) */
+img.toggle_icon {
+	padding-right: 0.5em;								/* 右側スペース幅 (0,5文字) */
+}
+
+/* class="hide_onload" 設定 */
+.hide_onload {
+    display: none;										/* 要素の表示無し*/
+}
+
+/* class="toggle" 設定 (リンク文字設定) */
+.toggle a {
+	text-decoration: none;								/* 下線無し */
+}
+.toggle a:link {
+	color:rgb(0, 90, 175);								/* リンク文字色 */
+}
+.toggle a:visited {
+	color:rgb(0, 90, 175);								/* 既に見たリンク文字色 */
+}
+.toggle a:active {
+	color:rgb(0, 90, 175);								/* クリック時のリンク文字色 */
+}
+.toggle a:hover {
+	color:rgb(0, 90, 175);								/* カーソルが上にある時のリンク文字色 */
+}
+
+/* class="active" 設定 (id="Summary" 内リンク文字設定) */
+#summary .active a:link {
+    color: rgb(0, 90, 175);                             /* リンク文字色 */
+}
+
+/* class="grayout" 設定 (id="Summary" 内リンク文字設定) */
+#summary .grayout a:link {
+    color: rgb(169, 169, 169);                          /* リンク文字色 */
+}
+#summary .grayout a:visited {
+    color: rgb(169, 169, 169);                          /* 既に見たリンク文字色 */
+}
+#summary .grayout a:active {
+    color: rgb(169, 169, 169);                          /* クリック時のリンク文字色 */
+}
+#summary .grayout a:hover {
+    color: rgb(169, 169, 169);                          /* カーソルが上にある時のリンク文字色 */
+}
+
+
+/* class="rbox" 設定 */
+.rbox {
+	border-collapse: collapse;							/* 表の隣接する枠線の重なり */
+	border-color: rgb(214, 214, 214);					/* 表枠線の色 */
+	border-style: solid;								/* 表枠線のスタイル */
+	border-width: 1px;									/* 表枠線の幅 */
+	margin-bottom: 0.5em;								/* 表の下側スペース幅 */
+	margin-top: 0.5em;									/* 表の上側スペース幅 */
+}
+
+/* class="rbox" th タグ設定 */
+.rbox th {
+	background-color: rgb(238, 238, 238);				/* 表枠内の背景色 */
+	border-color: rgb(214, 214, 214);					/* 表枠線の色 */
+	border-style: solid;								/* 表枠線のスタイル */
+	border-width: 1px;									/* 表枠線の幅 */
+	padding: 0px 5px;									/* 領域内スペース幅 */
+	text-align: center;									/* 水平方向の表示位置 */
+	vertical-align: middle;								/* 縦方向の表示位置 */
+	white-space: pre-wrap;                              /* 文字折り返し設定 */ 
+}
+/* class="vertical_item" 設定 (class="rbox" th タグ内) */
+.rbox th.vertical_item {
+	font-weight: bold;									/* 文字太さ */
+}
+/* class="horizontal_item" 設定 (class="rbox" th タグ内) */
+.rbox th.horizontal_item {
+	font-weight: bold;									/* 文字太さ */
+    word-break: break-all;                              /* 文字折り返し設定 */
+}
+/* class="banner" 設定 (class="rbox" th タグ内) */
+.rbox th.banner {
+	background-color: rgb(110, 110, 110);				/* 表枠内の背景色 */
+	color: rgb(238, 238, 238);							/* 文字色 */
+	font-weight: bold;									/* 文字太さ */
+	padding: 0px 15px;									/* 領域内スペース幅 */
+	text-align: left;									/* 水平方向の表示位置 */
+}
+/* id="return_top" タグ設定 (class="rbox" th タグ内) */
+.rbox th div#return_top {
+    text-align: right;                                  /* 水平方向の表示位置 */
+    margin-top: -18px;                                  /* 表の上スペース幅 (body から継承している1行分上に) */
+}
+/* リンク文字色設定 (class="rbox" th タグ内) */
+.rbox th a:link {
+    color:rgb(214, 249, 159);                           /* リンク文字色 */
+}
+.rbox th a:visited {
+    color:rgb(214, 249, 159);                           /* 既に見たリンク文字色 */
+}
+.rbox th a:active {
+    color:rgb(214, 249, 159);                           /* クリック時のリンク文字色 */
+}
+.rbox th a:hover {
+    color:rgb(214, 249, 159);                           /* カーソルが上にある時のリンク文字色 */
+}
+
+/* class="rbox" td タグ設定 */
+.rbox td {
+	border-color: rgb(214, 214, 214);					/* 表枠線の色 */
+	border-style: dotted;								/* 表枠線のスタイル */
+	border-width: 1px;									/* 表枠線の幅 */
+	text-align: left;									/* 水平方向の表示位置 */
+	vertical-align: middle;								/* 縦方向の表示位置 */
+	table-layout: fixed;                                /* セルの幅均一設定 */
+	width: 500px;                                       /* セル幅 */
+}
+/* class="input" td タグ設定 (class="rbox" td タグ内)(Input table) */
+.rbox td.input {
+    width: auto;                                        /* セル幅 (Input table は自動調整) */
+	padding: 2px 6px;							        /* 領域内スペース幅 */
+    white-space: pre-wrap;                              /* 文字折り返し設定 */
+    word-break: break-all;                              /* 文字折り返し設定 */
+}
+/* class="result_equal" 設定 (class="rbox" td タグ内) */
+.rbox td.result_equal {
+    width: 70px;                                        /* Result セルの幅設定 (固定) */
+	padding: 2px 6px;							        /* 領域内スペース幅 */
+}
+/* class="result_diff" 設定 (class="rbox" td タグ内) */
+.rbox td.result_diff {
+    width: 70px;                                        /* Result セルの幅設定 (固定) */
+	background-color: rgb(255, 224, 224);				/* 表枠内の背景色 */
+	color: rgb(160, 0, 0);								/* 文字色 */
+	font-weight: bold;									/* 文字太さ */
+	padding: 2px 6px;							        /* 領域内スペース幅 */
+}
+/* class="info_equal" 設定 (class="rbox" td タグ内) */
+.rbox td.info_equal {
+	table-layout: inherit;                              /* セルの幅均一設定 (.rbox td から継承) */
+	padding: 2px 6px;							        /* 領域内スペース幅 */
+    word-break: break-all;                              /* 文字折り返し設定 */
+}
+/* class="info_diff" 設定 (class="rbox" td タグ内) */
+.rbox td.info_diff {
+	table-layout: inherit;                              /* セルの幅均一設定 (.rbox td から継承) */
+	background-color: rgb(255, 224, 224);				/* 表枠内の背景色 */
+	color: rgb(160, 0, 0);								/* 文字色 */
+	font-weight: bold;									/* 文字太さ */
+	padding: 2px 6px;							        /* 領域内スペース幅 */
+    word-break: break-all;                              /* 文字折り返し設定 */
+}
+/* class="info_sicon_equal" 設定 (class="rbox" td タグ内) */
+.rbox td.info_sicon_equal {
+	table-layout: inherit;                              /* セルの幅均一設定 (.rbox td から継承) */
+	text-align: center;									/* 水平方向の表示位置 */
+}
+/* class="info_sicon_diff" 設定 (class="rbox" td タグ内) */
+.rbox td.info_sicon_diff {
+	table-layout: inherit;                              /* セルの幅均一設定 (.rbox td から継承) */
+	text-align: center;									/* 水平方向の表示位置 */
+	background-color: rgb(255, 224, 224);				/* 表枠内の背景色 */
+}
+/* class="info_ticon_equal" 設定 (class="rbox" td タグ内) */
+.rbox td.info_ticon_equal {
+	table-layout: inherit;                              /* セルの幅均一設定 (.rbox td から継承) */
+	text-align: center;									/* 水平方向の表示位置 */
+}
+/* class="info_ticon_diff" 設定 (class="rbox" td タグ内) */
+.rbox td.info_ticon_diff {
+	table-layout: inherit;                              /* セルの幅均一設定 (.rbox td から継承) */
+	text-align: center;									/* 水平方向の表示位置 */
+	background-color: rgb(255, 224, 224);				/* 表枠内の背景色 */
+	color: rgb(160, 0, 0);								/* 文字色 */
+}
+
+/* class="rtl" 設定 (class="rbox" td タグ内) */
+.rbox td.rtl {
+	direction: rtl;										/* 文字表記方向 (right to left) */
+	text-align: right;									/* 右寄せ */
+}
+
+/* class="sicon_ratio" 設定 (img タグ内) */
+.rbox td img.sicon_ratio {
+    width: 30%;                                        /* image サイズを % で指定 */
+    height: auto;                                       /* 固定 */
+}    
+/* class="ticon_ratio" 設定 (img タグ内) */
+.rbox td img.ticon_ratio {
+    width: 30%;                                         /* image サイズを % で指定 */
+    height: auto;                                       /* 固定 */
+}    
+
+/* window 幅が 1165px 以下の場合の設定 */
+@media all and (max-width:1165px) {
+	header, div#content, footer {
+		width: 852px;									/* 幅 */
+	}
+}
+/* window 幅が 1166px 以上(1566px 未満)の場合の設定 */
+@media all and (min-width:1166px) {
+	header, div#content, footer {
+		width: 1120px;									/* 幅 */
+	}
+}
+/* window 幅が 1566px 以上の場合の設定 */
+@media all and (min-width:1566px) {
+	header, div#content, footer {
+		width: 1520px;									/* 幅 */
+	}
+}
