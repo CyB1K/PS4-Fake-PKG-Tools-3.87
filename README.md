@@ -2,13 +2,11 @@
 
 ***Patched 3.87 Tools***
 
-***__V2 (Original keystone patch):__***
+***__V3 (Original keystone patch / No more fake file):__***
 
-This version uses a patched rename of keystone in the tools, so you can now build base games with original keystone directly from the tools without the need for a loader or gui.
+So i managed to reverse LMAN's legendary loader and managed to patch the keystone correctly now, it will no longer create a fake file inside and pkg will contain only the original keystone!
 
-The downside, you need to always make sure your app/base files has a keystone on "sce_sys\keystone" before using these to build a pkg as it will not build a pkg with a working keystone otherwise, which would cause the game to not work or save!
-
-Pkgs will be created with a file named "fakekeys" which is the renamed generated fake keystone.
+You need to always make sure your app/base files has a keystone on "sce_sys\keystone" before using these to build a pkg as it will not build a pkg with a keystone inside otherwise, which would cause the game to not work or save!
 
 Use the gengp4's accordingly to make sure apps/bases are built with a keystone and avoid accidentally building patches/updates with keystones, which can happen if for example you move files from base's sce_sys into a patch sce_sys folder.
 
@@ -34,15 +32,13 @@ Use the gengp4's accordingly to make sure apps/bases are built with a keystone a
 
 Always make a copy of "param.sfo" from "sce_sys\" to somewhere else before generating a gp4 as it can change and corrupt the param if the folders are not properly named.
 
-If you are repacking a game made with this tools, you first need to delete the file "fakekeys" from sce_sys before creating a gp4 or it will fail and error when building the pkg!
-
 XXXXX - Stands for the CUSA of the game you are packing.
 
 ----------------------------------------------------------
 
 Credits to flat_z, cfwprophet, SocraticBliss, TheRadziu and everyone else who worked on earlier tools patches! 
 
-Credits to LMAN for his patched gengp4 :)
+Credits to LMAN for his legendary loader and patched gengp4 :)
 
 Credits to Arczi for the help!
 
