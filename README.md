@@ -51,12 +51,3 @@ Credits to Arczi for the help!
 Enjoy
 
 By CyB1K
-Credits to LMAN for his patched gengp4 :)
-
-Credits to Arczi for the help!
-
-----------------------------------------------------------
-
-Enjoy
-
-By CyB1K
