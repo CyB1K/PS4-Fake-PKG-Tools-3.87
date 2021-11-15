@@ -49,7 +49,7 @@ Credits to flat_z, cfwprophet, SocraticBliss, TheRadziu and everyone else who wo
 
 Credits to LMAN for his legendary loader and patched gengp4 :)
 
-Credits to TheRadziu and Arczi for the help!
+Credits to TheRadziu, Arczi and Opoisso for the help!
 
 ----------------------------------------------------------
 
