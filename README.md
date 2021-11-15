@@ -5,7 +5,7 @@
 
 ***__V4 (All working now... maybeeee? ^-^"):__***
 
-Patched sc.exe which wasnt patched and so games wouldnt work, big thanks to Radziu and my partner Arczi for the help!
+Patched sc.exe which wasnt patched and so games wouldnt work, big thanks to TheRadziu and my partner Arczi for the help!
 
 Other fixes applied here and there, thanks to my friend Opoisso for the help! Thanks to Arczi for testing it all with me!
 
