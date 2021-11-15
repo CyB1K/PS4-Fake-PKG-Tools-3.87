@@ -2,13 +2,22 @@
 
 ***Patched 3.87 Tools***
 
-***__V3 (Original keystone patch / No more fake file):__***
 
-So i managed to reverse LMAN's legendary loader and managed to patch the keystone correctly now, it will no longer create a fake file inside and pkg will contain only the original keystone!
+***__V4 (All working now... maybeeee? ^-^"):__***
 
-You need to always make sure your app/base files has a keystone on "sce_sys\keystone" before using these to build a pkg as it will not build a pkg with a keystone inside otherwise, which would cause the game to not work or save!
+Patched sc.exe which wasnt patched and so games wouldnt work, big thanks to Radziu and my partner Arczi for the help!
+
+Other fixes applied here and there, thanks to my friend Opoisso for the help! Thanks to Arczi for testing it all with me!
+
+Let me know if you find anything else broken and ill fix (Forgive me for i am a mess with focusing on loads of files with same names) xD
+
+Added a version of 3.87 to be used with PSX-FPKG and PS2-FPKG To PS4 PKG builders if you want. I didn't do much testing to that, tested obscure with jak2 emulator and it was working.
+
+You need to always make sure your app/base files has a keystone on "sce_sys\keystone" before building a base pkg as it will build it without a keystone inside otherwise, which would cause the game to not work or save!
 
 Use the gengp4's accordingly to make sure apps/bases are built with a keystone and avoid accidentally building patches/updates with keystones, which can happen if for example you move files from base's sce_sys into a patch sce_sys folder.
+
+DONT use the old versions, as they wont work! Sorry!
 
 ----------------------------------------------------------
 
@@ -40,7 +49,7 @@ Credits to flat_z, cfwprophet, SocraticBliss, TheRadziu and everyone else who wo
 
 Credits to LMAN for his legendary loader and patched gengp4 :)
 
-Credits to Arczi for the help!
+Credits to TheRadziu and Arczi for the help!
 
 ----------------------------------------------------------
 
