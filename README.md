@@ -24,7 +24,7 @@ DONT use the old versions, as they wont work! Sorry!
 ***Instructions to build pkgs properly***
 
 ***Extracted Game (For repacks, ignore this one if its a dump):***
-1. Extract all files from base or update.
+1. Extract all files from base or update using orbis-pub.chk.exe
 2. After extracting rename the folder from Image0 to CUSAXXXXX-app or CUSAXXXXX-patch, accordingly.
 3. Move the files from the folder "Sc0" to "CUSAXXXXX-app\sce_sys\" or "CUSAXXXXX-patch\sce_sys" and delete the "Sc0" folder after.
 4. Continue the instructions the same as a dump.
