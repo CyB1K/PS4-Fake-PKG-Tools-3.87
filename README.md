@@ -2,6 +2,8 @@
 
 ***Patched 3.87 Tools***
 
+***__V5 Removed PKG Limit:__***
+Thanks Illusion0002 for this patch on cmd, ported it to pub-gen too. Illusion tested it with red dead redemption 2 and it was working normally with a 120gb PKG. I dont know if this might cause any mounting issues so build PKGs bigger than 100gb at your own risk!
 
 ***__V4 (All working now... maybeeee? ^-^"):__***
 
@@ -48,6 +50,8 @@ XXXXX - Stands for the CUSA of the game you are packing.
 Credits to flat_z, cfwprophet, SocraticBliss, TheRadziu and everyone else who worked on earlier tools patches! 
 
 Credits to LMAN for his legendary loader and patched gengp4 :)
+
+Credits to Illusion0002 for the PKG limit remove!
 
 Credits to TheRadziu, Arczi and Opoisso for the help!
 
