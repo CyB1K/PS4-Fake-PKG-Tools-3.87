@@ -2,6 +2,10 @@
 
 ***Patched 3.87 Tools***
 
+***__V6:__*** 
+
+Keystone will no longer be removed from the project when trying to rebuild a base pkg after a finished pkg or after an error on the same project, let me know if you find any issue with it.
+
 ***__V5 Removed PKG Limit:__*** 
 
 Thanks Illusion0002 for this patch on cmd, ported it to pub-gen too. Illusion tested it with red dead redemption 2 and it was working normally with a 120gb PKG. I dont know if this might cause any mounting issues so build PKGs bigger than 100gb at your own risk!
